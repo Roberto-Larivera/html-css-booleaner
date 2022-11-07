@@ -5,8 +5,11 @@
 }
 .body{
     width: 80%;
+    font-family: 'Roboto Slab', serif;
+
 }
 
+/* header */
 
 #header{
     height: 100px;
@@ -15,25 +18,52 @@
     background-repeat: repeat-x;
     background-size: 30% ;
 }
-
 #logo-img{
     height: 50%;
 }
 
 #title{
-    font-family: 'Roboto Slab', serif;
     font-weight: 500;
 }
 
+/* fine header */
+
+
+
 .thin-text{
-    font-family: 'Roboto Slab', serif;
     font-weight: 400;
     color: gray;
 }
-#thin-text-small{
+.thin-text-small{
     font-size: 0.8em;
 }
 
 #blue-text{
     color: rgb(49, 148, 234);
+}
+
+/* Evidensiatore giallo */
+.style-yellow{
+    background-color: rgb(255, 255, 0);
+}
+
+/* stile tabella */
+table{
+    width: 100%;
+}
+
+#tre-thead{
+    width: 50%;
+}
+
+.dublecolor-table{
+    background-color: rgb(139, 224, 255);
+}
+thead{
+    background-color: rgb(34, 122, 246);
+    
+}
+
+.text-thead{
+    color: white;
 }
