@@ -1,0 +1,102 @@
+.body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0 auto;
+}
+
+#main{
+    width: 80%;
+    /* margin: 0 auto; */
+}
+/* header */
+
+#header{
+    height: 100px;
+    background-color: rgb(39, 162, 245);
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat-x;
+    background-size: 30% ;
+}
+#logo-img{
+    height: 50%;
+    /* +++++ aggiunta padding come da foto  */
+    padding:2% 1%;
+}
+
+#title{
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+
+/* fine header */
+
+
+
+.thin-text{
+    font-weight: 400;
+    color: gray;
+}
+.thin-text-small{
+    font-size: 0.8em;
+    color: gray;
+}
+
+#blue-text{
+    color: rgb(49, 148, 234);
+}
+
+#id-titolo{
+    margin-bottom: 1%;
+}
+/* Evidensiatore giallo */
+.style-yellow{
+    background-color: rgb(255, 255, 0);
+}
+/* +++++ aggiunta padding come da foto  */
+.elenco{
+    padding-left: 1%;
+}
+
+/* stile tabella */
+table{
+    width: 100%;
+}
+
+#tre-thead{
+    width: 50%;
+}
+
+.dublecolor-table{
+    background-color: rgb(139, 224, 255);
+}
+thead{
+    background-color: rgb(34, 122, 246);
+    
+}
+
+.text-thead{
+    color: white;
+}
+
+/* fine stile tabella */
+
+/* Inizio stile pub  */
+#text-pub1{
+    font-weight: 500;
+    color: gray;
+}
+.image-pub{
+    height: 200px;
+    width: 300px;
+    font-size: 2em;
+    color: white;
+    margin: 1%;
+    text-align: center;
+}
+
+#pub1{
+    background-image: url(../img/monitor.jpg);  
+}
+#pub2{
+    background-image: url(../img/graph.jpg);  
+}
