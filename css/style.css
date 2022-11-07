@@ -6,7 +6,7 @@
 .body{
     width: 80%;
     font-family: 'Roboto Slab', serif;
-
+    
 }
 
 /* header */
@@ -66,4 +66,24 @@ thead{
 
 .text-thead{
     color: white;
+}
+
+/* fine stile tabella */
+#text-pub1{
+    font-weight: 500;
+    color: gray;
+}
+.image-pub{
+    height: 200px;
+    width: 300px;
+    font-size: 2em;
+    color: white;
+    margin: 1%;
+}
+
+#pub1{
+    background-image: url(../img/monitor.jpg);  
+}
+#pub2{
+    background-image: url(../img/graph.jpg);  
 }
