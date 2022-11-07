@@ -1,0 +1,23 @@
+.body{
+    width: 80%;
+}
+
+
+#header{
+    height: 100px;
+    
+    
+}
+#header-back{
+    background-color: rgb(39, 162, 245);
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat-x;
+    background-size: 100% ;
+}
+#header-img{
+    height: 100px;
+}
+
+#title{
+    
+}
