@@ -1,14 +1,12 @@
-*{
-    /* margin: 0; */
-    /* padding: 0; */
-
-}
 .body{
-    width: 80%;
     font-family: 'Roboto Slab', serif;
-    
+    margin: 0 auto;
 }
 
+#main{
+    width: 80%;
+    /* margin: 0 auto; */
+}
 /* header */
 
 #header{
@@ -20,10 +18,14 @@
 }
 #logo-img{
     height: 50%;
+    /* +++++ aggiunta padding come da foto  */
+    padding:2% 1%;
 }
 
 #title{
     font-weight: 500;
+    margin-bottom: 0;
+
 }
 
 /* fine header */
@@ -36,15 +38,23 @@
 }
 .thin-text-small{
     font-size: 0.8em;
+    color: gray;
 }
 
 #blue-text{
     color: rgb(49, 148, 234);
 }
 
+#id-titolo{
+    margin-bottom: 1%;
+}
 /* Evidensiatore giallo */
 .style-yellow{
     background-color: rgb(255, 255, 0);
+}
+/* +++++ aggiunta padding come da foto  */
+.elenco{
+    padding-left: 1%;
 }
 
 /* stile tabella */
@@ -69,6 +79,8 @@ thead{
 }
 
 /* fine stile tabella */
+
+/* Inizio stile pub  */
 #text-pub1{
     font-weight: 500;
     color: gray;
@@ -79,6 +91,7 @@ thead{
     font-size: 2em;
     color: white;
     margin: 1%;
+    text-align: center;
 }
 
 #pub1{
