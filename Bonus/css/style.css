@@ -5,9 +5,10 @@
 
 #main{
     width: 80%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
+
 }
-/* header */
+/* inizio header */
 
 #header{
     height: 100px;
@@ -19,7 +20,8 @@
 #logo-img{
     height: 50%;
     /* +++++ aggiunta padding come da foto  */
-    padding:2% 1%;
+    /* aggiunta 10% di padding = metà main  */
+    padding:2% 10%;
 }
 
 #title{
