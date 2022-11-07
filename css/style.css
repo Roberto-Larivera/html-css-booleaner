@@ -1,3 +1,8 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+
+}
 .body{
     width: 80%;
 }
@@ -5,19 +10,30 @@
 
 #header{
     height: 100px;
-    
-    
-}
-#header-back{
     background-color: rgb(39, 162, 245);
     background-image: url(../img/pattern.png);
     background-repeat: repeat-x;
-    background-size: 100% ;
+    background-size: 30% ;
 }
-#header-img{
-    height: 100px;
+
+#logo-img{
+    height: 50%;
 }
 
 #title{
-    
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+.thin-text{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: gray;
+}
+#thin-text-small{
+    font-size: 0.8em;
+}
+
+#blue-text{
+    color: rgb(49, 148, 234);
 }
