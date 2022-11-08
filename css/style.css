@@ -4,7 +4,7 @@
 }
 
 #main{
-    width: 80%;
+    /* width: 80%; */
     /* margin: 0 auto; */
 }
 /* header */
@@ -59,7 +59,8 @@
 
 /* stile tabella */
 table{
-    width: 100%;
+    border-spacing: 0;
+    text-align: left;
 }
 
 #tre-thead{
